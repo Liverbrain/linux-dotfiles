@@ -45,11 +45,11 @@ Not like you care though
 - [Here are some of the wallpapers I use](https://imgur.com/a/3EoAx65)
 
 # To-Do
-(not in order)
-- Add weather icons to polybar
-- Make weechat look nicer
-- Add file icons to ranger
-- Add ncmpcpp album art support
-- Make a Firefox CSS theme and upload it here
-- Add more Walters
-- Go to college
+Everything checked below will be added/changed in the next update! (none of these are in any real order)
+- [] Add weather icons to polybar
+- [] Make weechat look nicer
+- [x] Add file icons to ranger
+- [x] Add ncmpcpp album art support
+- [] Make a Firefox CSS theme and upload it here
+- [x] Add more Walters
+- [] Go to college
