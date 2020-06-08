@@ -55,5 +55,6 @@ Everything checked below will be added/changed in the next update! (none of thes
 - [ ] Use bitmap Cozette font instead of CozetteVector
 - [ ] Make a Firefox start page
 - [ ] Configure Claws Mail (because Mutt is unusable)
+- [ ] Add brightness controls to polybar
 - [x] Add more Walters
 - [ ] Go to college
