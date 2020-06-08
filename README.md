@@ -4,19 +4,19 @@ Below is what my current setup looks like. I cannot promise you that everything 
 ![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-05-18-123840_1366x768_scrot.png) <br />
 ![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-05-18-125203_1366x768_scrot.png) <br />
 
-### compton
-In order to achieve the blur effect in the preview, you'll need a certain fork of compton called compton-tryone. Otherwise you won't achieve the level of blur in the screenshot (this took me way too long to find out, so I'm saving you the trouble!)
+### picom
+In order to achieve the blur effect in the preview, you'll need a certain fork of compton called picom-ibhagwan-git. Otherwise you won't achieve the level of blur in the screenshot (this took me way too long to find out, so I'm saving you the trouble!)
 ### dunst
 My notification application of choice. My configuration requires CozetteVector font to be installed. If you use Discord, you'll see avatar icons within the notification window.
 ### i3
 i3-gaps is the window manager I use. No dependencies for this, the keybindings are pretty much all the same as the defaults. You'll need compton-tryone for transparency to work. Pressing Ctrl-d opens rofi.
 ### ncmpcpp
-Super configurable media player for the terminal. I plan to add album art support soon. The current fix for album art that most people use is [here](https://marcocheung.wordpress.com/2015/08/09/showing-album-cover-in-ncmpcpp/), but I really don't like it at all. So I'll find my own way of doing things and upload it here ASAP!
+Super configurable media player for the terminal. I took the ncmpcpp album art script from [here](https://github.com/alnj/ncmpcpp-ueberzug) and decided to tweak it to my liking. Finally album art in ncmpcpp that WORKS!
 You'll probably have to change the music directory in the config file from /home/smek/music/ to whatever directory your music is in. It should work fine after that.
 ### polybar
 You'll need the CozetteVector and rissole fonts for my polybar config to work. Even then, it most likely won't work out of the box. You'll also need mpd (and probably mpc) for the music controls to work, and the workspace switcher will only work with i3 and i3-gaps as far as I know.
 ### ranger
-Ranger is my file manager of choice (though I also use ROX sometimes). I plan to customize it more in the near future.
+Ranger is my file manager of choice. I recently added neat little file icons for mostly aesthetic purposes. It works fine with CozetteVector as the terminal font. The file icon script can be found [here](https://github.com/alexanderjeurissen/ranger_devicons)
 ### rofi
 My rofi configuration should work out of the box as long as you have the CozetteVector font installed. Nice and easy!
 ### weechat
@@ -36,12 +36,12 @@ Not like you care though
 - My image viewer is [sxiv](https://github.com/muennich/sxiv)
 - My photo editor is GIMP
 - I create my colorschemes with [pywal](https://github.com/dylanaraps/pywal)
-- My pdf reader is [zathura](https://aur.archlinux.org/packages/zathura-git/) (you'll also want [this package](https://aur.archlinux.org/packages/zathura-pdf-poppler-git/) in order to read PDFs)
-- My music players are ncmpcpp and [spotify-tui](https://github.com/Rigellute/spotify-tui)
+- My PDF reader is [zathura](https://aur.archlinux.org/packages/zathura-git/) (you'll also want [this package](https://aur.archlinux.org/packages/zathura-pdf-poppler-git/) in order to read PDFs)
+- My music players are ncmpcpp and [spotify-tui](https://github.com/Rigellute/spotify-tui).
 - My taskbar is [polybar](https://github.com/polybar/polybar)
 - My menu is made with [rofi](https://github.com/davatorium/rofi)
 - My text editor is nano
-- My compositor is [compton-tryone](https://aur.archlinux.org/packages/compton-tryone-git/)
+- How do I get my pretty blur? It took me way too long to find out which package to use, since all of these compton forks sound way too similar. [Here's the link](https://aur.archlinux.org/packages/picom-ibhagwan-git)
 - [Here are some of the wallpapers I use](https://imgur.com/a/3EoAx65)
 
 # To-Do
@@ -51,5 +51,9 @@ Everything checked below will be added/changed in the next update! (none of thes
 - [x] Add file icons to ranger
 - [x] Add ncmpcpp album art support
 - [ ] Make a Firefox CSS theme and upload it here
+- [ ] Upload usable newsboat config here
+- [ ] Use bitmap Cozette font instead of CozetteVector
+- [ ] Make a Firefox start page
+- [ ] Configure Claws Mail (because Mutt is unusable)
 - [x] Add more Walters
 - [ ] Go to college
