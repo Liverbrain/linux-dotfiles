@@ -1,8 +1,7 @@
 # linux-dotfiles
 This is where I dump all of my dotfiles, I'll try to keep it as neat as possible!
 Below is what my current setup looks like. I cannot promise you that everything will work out of the box!
-![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-05-18-123840_1366x768_scrot.png) <br />
-![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-05-18-125203_1366x768_scrot.png) <br />
+![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-06-08-114117_1366x768_scrot.png) <br />
 
 ### picom
 In order to achieve the blur effect in the preview, you'll need a certain fork of compton called picom-ibhagwan-git. Otherwise you won't achieve the level of blur in the screenshot (this took me way too long to find out, so I'm saving you the trouble!)
