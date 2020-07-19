@@ -1,10 +1,11 @@
 # linux-dotfiles
 This is where I dump all of my dotfiles, I'll try to keep it as neat as possible!
 Below is what my current setup looks like. I cannot promise you that everything will work out of the box!
-![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-06-08-114117_1366x768_scrot.png) <br />
+At the moment, I am currently on vacation, so changes may be delayed a few days. An massive update will come out somewhat soon!
+![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-07-06-111209_1366x768_scrot.png) <br />
 
-### picom
-In order to achieve the blur effect in the preview, you'll need a certain fork of compton called picom-ibhagwan-git. Otherwise you won't achieve the level of blur in the screenshot (this took me way too long to find out, so I'm saving you the trouble!)
+### compton
+In order to achieve the blur effect in the preview, you'll need a certain fork of compton called compton-tryone-git. Otherwise you won't achieve the level of blur in the screenshot (this took me way too long to find out, so I'm saving you the trouble!)
 ### dunst
 My notification application of choice. My configuration requires CozetteVector font to be installed. If you use Discord, you'll see avatar icons within the notification window.
 ### i3
@@ -40,20 +41,18 @@ Not like you care though
 - My taskbar is [polybar](https://github.com/polybar/polybar)
 - My menu is made with [rofi](https://github.com/davatorium/rofi)
 - My text editor is nano
-- How do I get my pretty blur? It took me way too long to find out which package to use, since all of these compton forks sound way too similar. [Here's the link](https://aur.archlinux.org/packages/picom-ibhagwan-git)
+- My compositor is compton
 - [Here are some of the wallpapers I use](https://imgur.com/a/3EoAx65)
 
 # To-Do
 Everything checked below will be added/changed in the next update! (none of these are in any real order)
+- [ ] Update Zathura config
 - [ ] Add weather icons to polybar
 - [ ] Make weechat look nicer
-- [x] Add file icons to ranger
-- [x] Add ncmpcpp album art support
 - [ ] Make a Firefox CSS theme and upload it here
 - [ ] Upload usable newsboat config here
 - [ ] Use bitmap Cozette font instead of CozetteVector
 - [ ] Make a Firefox start page
 - [ ] Configure Claws Mail (because Mutt is unusable)
 - [ ] Add brightness controls to polybar
-- [x] Add more Walters
 - [ ] Go to college
