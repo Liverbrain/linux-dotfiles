@@ -4,10 +4,10 @@ rofi.width:                          50
 rofi.columns:                        2
 # rofi.padding:                        20
 rofi.font:                           CozetteVector 9
-rofi.color-normal:                   argb:00000000, #ffffff, argb:00000000, argb:00FFFFFF,#c95e5e
+rofi.color-normal:                   argb:00000000, #ffffff, argb:00000000, argb:00FFFFFF,#b98b6d
 rofi.color-urgent:                   argb:00000000, #6A8554, argb:00000000, #FFFFFF, #FFFFFF
-rofi.color-active:                   argb:00000000, #0b0f0c, argb:00000000, argb:4CFFFFFF, #FFf
-rofi.color-window:                   argb:aa0c100f, #00aaaadd, argb:00000000, argb:#0b0f0c
+rofi.color-active:                   argb:00000000, #121b1c, argb:00000000, argb:4CFFFFFF, #FFf
+rofi.color-window:                   argb:aa121b1c, #00aaaadd, argb:00000000, argb:#121b1c
 # rofi.opacity:                        10
 # rofi.bw:                             3
 # rofi.location:                       0
@@ -37,4 +37,3 @@ theme: "~/.cache/wal/colors-rofi-dark.rasi";
 
 # Light theme.
 theme: "~/.cache/wal/colors-rofi-light.rasi";
-
