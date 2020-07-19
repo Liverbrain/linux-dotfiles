@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #aa0b0f0c
+background = #aa121b1c
 foreground = ${xrdb:color7:#222}
 foreground-alt = ${xrdb:color7:#222}
 primary = ${xrdb:color1:#222}
@@ -51,15 +51,15 @@ module-margin-right = 2
 
 font-0 = rissole:pixelsize=10;1
 font-1 = waffle:pixelsize=10;1
-font-2 = CozetteVector:pixelsize=10;2
+font-2 = CozetteVector:pixelsize=9;2
 
 modules-left = i3 mpd
 modules-center = 
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu battery wlan network temperature date
+modules-right = filesystem xbacklight alsa pulseaudio battery wlan network date
 
 tray-position = 
 tray-padding = 2
-tray-background = #aa0b0f0c
+tray-background = #aa121b1c
 
 ;wm-restack = bspwm
 ;wm-restack = i3
@@ -637,7 +637,7 @@ screenchange-reload = true
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
-pseudo-transparency = true
+pseudo-transparency = false
 
 [global/wm]
 margin-top = 5
