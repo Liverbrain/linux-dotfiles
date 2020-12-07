@@ -1,7 +1,9 @@
+### Please read
+I have taken a hiatus due to college and other personal reasons. I plan to come back in January with new dotfiles and other projects. Thank you so much for your understanding.
+
 # linux-dotfiles
 This is where I dump all of my dotfiles, I'll try to keep it as neat as possible!
 Below is what my current setup looks like. I cannot promise you that everything will work out of the box!
-At the moment, I am currently on vacation, so changes may be delayed a few days. An massive update will come out somewhat soon!
 ![alt text lol](https://raw.githubusercontent.com/Liverbrain/linux-dotfiles/master/2020-07-06-111209_1366x768_scrot.png) <br />
 
 ### compton
